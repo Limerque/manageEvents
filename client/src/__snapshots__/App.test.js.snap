@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App component correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <nav>
+        <img
+          alt="Logo"
+          src="Logo.png"
+        />
+         
+        <div
+          class="right-links"
+        >
+          <a
+            class="user-login"
+            href="/user-login"
+          >
+            User Login
+          </a>
+          <a
+            class="admin-login"
+            href="/admin-login"
+          >
+            Admin Login
+          </a>
+          <a
+            class="signup"
+            href="/signup"
+          >
+            Sign up
+          </a>
+        </div>
+      </nav>
+      <hr />
+      <h1
+        class="FindEvents"
+      >
+        Find the best events!
+      </h1>
+      <h1
+        class="ManageEvents"
+      >
+        Manage your events!
+      </h1>
+      <div
+        class="Home"
+      >
+        <div
+          class="User"
+        >
+          <img
+            alt="Find"
+            class="FindEventsImg"
+            src="Find.png"
+          />
+           
+          <h2
+            class="discoverEvents"
+          >
+            Discover events in your area
+          </h2>
+          <h3
+            class="Register"
+          >
+            Register for events that you want to attend
+          </h3>
+        </div>
+        <div
+          class="Admin"
+        >
+          <img
+            alt="Manage"
+            class="ManageEventsImg"
+            src="Manage.png"
+          />
+           
+          <h2
+            class="uploadEvents"
+          >
+            Upload your event
+          </h2>
+          <h3
+            class="Manage"
+          >
+            Manage your events. Customize to your hearts desire
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

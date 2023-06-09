@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Permanent Marker";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/permanentmarker/v16/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Cfw.woff2")
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/notosans/v28/o-0IIpQlx3QUlC5A4PNr5TRA.woff2")
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav img {
+  height: 50px;
+  border-radius: 50%;
+}
+nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+}
+
+nav .right-links {
+  display: flex;
+  align-items: center;
+}
+
+nav .right-links > * {
+  margin-left: 10px;
+}
+h1 {
+  font-family: "Permanent Marker", cursive;
+  color: #c4ff00;
+  font-size: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.event-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.date-time {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Place {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Description {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Price {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.save {
+  padding: 12px 35px;
+  background-color: #b1a1ed;
+  border-radius: 8px;
+}
