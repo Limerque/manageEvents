@@ -101,3 +101,7 @@ form {
   background-color: #b1a1ed;
   border-radius: 8px;
 }
+.image-preview {
+  width: 40%;
+  height: auto;
+}

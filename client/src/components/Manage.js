@@ -79,7 +79,11 @@ const Manage = () => {
           {/* Render each event */}
           {events.map((event) => (
             <div key={event._id} className="event">
-              <img src={event.image} alt={event.eventName} />
+              <img
+                src={event.image}
+                alt={event.eventName}
+                className="event-img"
+              />
               <div className="event-details">
                 <div className="event-details-row">
                   <h3>{event.eventName}</h3>

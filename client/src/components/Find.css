@@ -110,3 +110,6 @@ nav .right-links > * {
   margin-top: 10px;
   width: 20%;
 }
+.event-img {
+  max-width: 75%;
+}

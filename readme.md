@@ -2,7 +2,7 @@
 
 Welcome to the Event Management App! This application allows users to manage and find events. The app consists of a front-end built with React and a back-end built with Node.js and MongoDB.
 
-## How to Use the App
+## Installation instructions
 
 1. Clone the repository to your local machine using the following command:
 
@@ -29,6 +29,29 @@ npm start
 npm start
 
 7. Open your web browser and access the application at `http://localhost:3000`.
+
+## How to use the application
+
+1. When you open the app you will find the home page.
+
+2. If you are a new user go to sign up. There you will have to provide a email address and password as well as a choice
+   between an admin account and a regular user. (An admin account allows you to create and manage events while an regular user will only be able to view events.)
+
+3. Once you have signed up you will be redirected to the home page. There you will click either on the user login or admin login.
+
+4. When you go to the user login you can enter your details and click on the login button. You will be redirected to the find page where you can view events.
+
+5. When you go to the admin login you can enter your details and click on the login button. You will be redirected to the manage page where you can manage events.
+
+6. On the manage page you will find the add event button. When you click it you can add an event by importing an image and adding the event details. Click on the add event button.
+
+7. On the manange page you will find all the events. Underneath each event there is an edit and cancel button. Click on the edit event button.
+
+8. You will be redirected to the edit event page. There you can change the image and event details. Click on the save changes button.
+
+9. When you want to remove an event click on the cancel button. This will delete the event.
+
+10. When you are done viewing or managing the events you can log out.
 
 ## Security Measures
 
